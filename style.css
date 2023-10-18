@@ -84,6 +84,21 @@ body {
     margin-left: 5px;
 }
 
+.select-box .credit {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.select-box .credit a {
+    color: #56baed;
+    text-decoration: none;
+}
+
+.select-box .credit a:hover {
+    text-decoration: underline;
+}
 
 .play-board {
     opacity: 0;
@@ -184,3 +199,4 @@ body {
     border-radius: 5px;
     background: #fff;
 }
+
