@@ -39,4 +39,10 @@ function clickedBox(element) {
     selectWinner();
     element.style.pointerEvents = "none";
     playBoard.style.pointerEvents = "none";
+
+    let randomTimeDelay = ((Math.random() * 1000) + 200).toFixed();
+
+    setTimeout(() => {
+        bot(runBot);
+    }, randomTimeDelay);
 }
